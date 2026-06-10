@@ -1,0 +1,54 @@
+body {
+    background-color: #adadad;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+#container {
+    /*width: 70%;*/
+            max-width: 1100px;
+            margin: 0 auto;
+            border: 1px solid #000;
+            padding: 1rem;
+        }
+.article {
+            background-color: #adadad;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        header {
+            background-color: #adadad;
+            height: 60px;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            line-height: 60px;
+            color: #000;
+            border-bottom: 3px solid #000;
+            padding: 1rem;
+        }
+nav ul li {
+            display: inline-block;
+            margin-right: 1rem;
+            list-style: none;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #adadad;
+            padding: 1rem;
+            text-align: center;
+        }
+
+/* Estilo general para cada línea de alumno */
+.nota-alumno {
+    font-size: 1.2rem;       /* Hace la letra más grande (1.2 veces el tamaño normal) */
+    font-weight: bold;       /* Pone la letra en negrita */
+    color: #333333;          /* Un color gris oscuro para el texto, reemplazando el negro puro */
+    background-color: #ffffff; /* Un fondo blanco para que resalte sobre el fondo gris (#adadad) del body */
+    padding: 15px;           /* Espacio interno para que el texto no choque con los bordes */
+    margin-bottom: 12px;     /* Separación entre un alumno y otro */
+    border-left: 5px solid #000000; /* Una barra decorativa negra a la izquierda */
+    border-radius: 4px;      /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Una pequeña sombra para darle profundidad */
+}
